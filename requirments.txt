@@ -1,0 +1,9 @@
+faiss-cpu
+numpy
+cohere
+google-generativeai
+sentence-transformers
+datasets
+scikit-learn
+nltk
+pandas
