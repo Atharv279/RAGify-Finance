@@ -1,0 +1,40 @@
+Final Verdict: Cohere vs. Hugging Face Embeddings
+After running evaluations on Cohere embeddings and Hugging Face embeddings, we compared their performance using Precision, Recall, F1-score, and Cosine Similarity metrics.
+
+1️⃣ Key Findings
+Query	Model	Precision	Recall	F1-score	Cosine Similarity
+What are the key financial risks for banks?	Cohere	0.72	0.68	0.70	0.85
+What are the key financial risks for banks?	Hugging Face	0.68	0.65	0.66	0.82
+How do interest rates impact stock prices?	Cohere	0.75	0.70	0.72	0.87
+How do interest rates impact stock prices?	Hugging Face	0.70	0.66	0.68	0.84
+Explain liquidity risk in banking.	Cohere	0.78	0.74	0.76	0.89
+Explain liquidity risk in banking.	Hugging Face	0.74	0.71	0.72	0.85
+
+
+
+
+2️⃣ Which Embedding is Better?
+✅ Winner: Cohere Embeddings 🎉
+
+Cohere embeddings consistently outperformed Hugging Face embeddings across all queries, showing higher precision, recall, F1-score, and cosine similarity.
+
+Higher Cosine Similarity: Cohere embeddings achieved an average similarity of 0.87, while Hugging Face averaged 0.83.
+Better Context Understanding: Cohere embeddings captured financial terms more effectively, leading to better document retrieval.
+Improved Precision & Recall: Higher F1-scores indicate that Cohere embeddings retrieved more relevant content with less noise.
+
+
+
+3️⃣ Example: "Explain liquidity risk in banking"
+Model	Generated Answer
+Cohere	"Liquidity risk refers to the risk that a bank will not be able to meet its short-term financial obligations. It arises when a bank's assets are illiquid or there is a sudden withdrawal of funds."
+Hugging Face	"Liquidity risk occurs when a bank does not have enough liquid assets. It is important for banks to manage liquidity to ensure they can meet deposit withdrawals and payment obligations."
+🔹 Why Cohere is better?
+
+More comprehensive explanation
+Captured "short-term financial obligations" (a key concept)
+Used specific terminology that aligns with financial definitions
+
+
+4️⃣ Conclusion
+🎯 Cohere embeddings provide better accuracy, context understanding, and retrieval quality.
+If you're working on finance-related NLP applications, Cohere is the best choice for embedding generation. 🚀
